@@ -1,0 +1,24 @@
+.hierarchical-nav-menu {
+  margin: auto;
+  width: 85%;
+  padding-top: 1em;
+}
+
+.hierarchical-nav-menu::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: var(--light-green-color);
+  margin-top: 5px;
+  width: 30px;
+}
+
+
+.path-container, .path-list {
+  display: inline-block;
+  text-align: center;
+}
+
+.path-list, .hierarchical-nav-menu::after{
+  margin-left: 5px;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="magnifier-6" class="cls-1" d="M1660,44a7,7,0,1,0-7-7A7.008,7.008,0,0,0,1660,44Zm12.17,8-7.38-7.387a9.053,9.053,0,1,1,2.82-2.828l7.39,7.387Z" transform="translate(-1651 -28)"/>
+</svg>
