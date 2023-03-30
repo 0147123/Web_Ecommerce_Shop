@@ -1,0 +1,85 @@
+/* main */
+.content {
+  width: 100%;
+}
+
+.admin-main-content {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+.new-item::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: var(--light-green-color);
+  margin-top: 2px;
+  width: 30px;
+}
+
+.new-item h2 {
+  margin-bottom: 10px;
+}
+
+.admin-form {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.form-input, .form-select  {
+  border: 1px solid #909090;
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 5px;
+
+}
+
+.admin-form-image-preview-container {
+  border: 1px solid #909090;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.admin-space-between-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.admin-form-image-preview-container img {
+  width: 100%;
+}
+
+.submit-button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  background-color: var(--green-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  /* float: left; */
+}
+
+.admin-form-name-container, .admin-form-button-container {
+  width: 100%;
+}
+
+.admin-form-button-container {
+  display: flex;
+  justify-content: flex-end;
+}

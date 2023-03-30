@@ -1,0 +1,53 @@
+/* main */
+.content {
+  width: 100%;
+}
+
+.admin-main-content {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/* .admin-panel-box {
+  background-color: white;
+} */
+.admin-panel-table,.admin-panel-container{
+  width: 100%;
+}
+.admin-panel-head th{
+  font-weight: 400;
+}
+
+.admin-panel-table, .admin-panel-head th, .admin-panel-body td{
+  border: 1px solid #909090;
+}
+
+.add-new-product-container {
+  width: 100%;
+}
+
+
+.content h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* .admin-panel-head::after {
+  content: "";
+  position: relative;
+  height: 2px;
+  background: rgb(72,181,148);
+  background: linear-gradient(90deg, rgba(72,181,148,1) 0%, rgba(135,255,219,1) 45%, rgba(72,181,148,1) 100%);
+  top: 20px;
+  width: 100px;
+}
+ */
+
+/* .admin-panel-head {
+  height: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */

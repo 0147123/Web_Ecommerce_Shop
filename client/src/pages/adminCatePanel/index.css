@@ -1,0 +1,18 @@
+.cate-input {
+  border: 1px solid #909090;
+
+}
+
+.admin-panel-table {
+  margin-bottom: 40px;
+}
+
+.admin-topic-name {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  float: right;  
+}
